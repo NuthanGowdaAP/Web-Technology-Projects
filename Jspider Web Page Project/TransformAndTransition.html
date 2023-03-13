@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform and transition</title>
+</head>
+<style>
+    div{
+        height: 200px;
+        width: 250px;
+        margin-left: 200px;
+        border: 2px solid red;
+        background-color: aqua;
+    }
+    div:hover{
+        /* transform:translate(20px,30px);
+           transform:translatex(20px,30px);
+           transform:translatey(20px,30px);
+
+        transform: rotate(30deg); 
+        transform: rotatex(30deg);
+         transform: rotatey(30deg); */
+
+        transform: scale(1);
+        border-radius:50%;
+        /* transition: all 5s;
+           transition-delay: 5s;
+           transition-duration:5s; */
+           transition-property:border-radius;
+    }
+</style>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quo laborum officiis
+             possimus minima aliquid rerum eaque libero eum illo, nulla dolor! Recusandae 
+             laboriosam voluptate ipsum explicabo.</p>
+    </div>
+    
+</body>
+</html>

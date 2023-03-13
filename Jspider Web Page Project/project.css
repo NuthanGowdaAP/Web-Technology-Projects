@@ -1,0 +1,254 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+.main{
+    width:1400px;
+    background-image: url('bg.jpg');
+    background-position: center;
+    background-size: cover;
+    height:605px;
+}
+.navbar{
+    width:1200px;
+    height:70px;
+    margin: auto;
+}
+ #nav a {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 50px;
+}
+.logo{
+   
+    position: relative;
+    height:10px;
+    top: 5px;
+    left:0px;
+    
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 25px;
+    font-size: 16px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+ul li a:hover{
+  color: chocolate;
+}
+.search{
+    width: 300px;
+    float: left;
+    margin-left: 300px;
+}
+.search #Branch{
+    color:black;
+    height:25px;
+    position: relative;
+    top:0px;
+    left:100px;
+    background-color:whitesmoke;
+ 
+}
+.btn{
+    width:60px;
+    height:25px;
+    background-color: chocolate;
+    color: white;
+    font-size:15px;
+    border: 1px solid;
+    position: relative;
+    top:0px;
+    left: 100px;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+    top:90px;
+    left:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:30px;
+}
+.content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:60px;
+    color: chocolate;
+}
+.content h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:30px;
+}
+.content h3{
+    position: relative;
+    left: -600px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:30px;
+}
+.content button{
+    background-color: chocolate;
+    font-size: 18px;
+    padding:3px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.content button:hover{color:red;}
+.form{
+    width:250px;
+    height: 250px;
+    border: 1px solid white;
+    padding:20px;
+    position: absolute;
+    top: 60px;
+    left:800px;
+    border-radius: 20px;
+    
+}
+.form h4{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   color:chocolate;
+   text-align: center;
+   background-color: black;
+   border-radius: 80px;
+}
+.form input{
+    width:220px;
+    height:20px;
+    background-color: transparent;
+    border-bottom:2px solid chocolate;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+}
+::placeholder{color: white;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.form button {
+    padding:5px;
+    width:80px;
+    height:30px;
+    color: white;
+    border-radius:30px;
+}
+.form a{
+    color: white;
+    text-decoration: none;
+}
+.form a:hover{
+    color:red;
+}
+.main2{
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+  #jsf{
+    position: relative;
+    top: -10px;
+    left: 600px;
+
+}
+.faculty #logo1{
+position:relative;
+top: -10px;
+left: 80px;
+}
+.faculty #logo2{
+    position:relative;
+    top: -510px;
+    left: 130px;
+    }
+.faculty #logo3{
+    position:relative;
+    top: -490px;
+    left: 810px;
+        }
+ .faculty #logo4{
+    position:relative;
+    top: -250px;
+    left: -280px;
+   }
+ .faculty #logo5{
+    position:relative;
+    top: -250px;
+    left:420px;
+    }  
+ .faculty #logo6{
+    position:relative;
+    top:00px;
+    right:400px;
+     }   
+  .faculty h1{
+    color: chocolate;
+    text-indent: 50px;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }    
+  .photo{
+    background-image: url('bg.jpg');
+    background-size: cover;
+  }  
+  .photo h1{
+    color: chocolate;
+    text-indent:30px;
+    font-size: 40px;}
+ .photo img{
+    width:500px;
+    height:500px;
+ }
+ .photo #p{
+    position: relative;
+    top: 0;
+    left:80px;
+ }
+ .photo #p1{
+    position: relative;
+    top: 0;
+    left:150px;
+ }
+ .photo #p2{
+    position: relative;
+    top: 0;
+    left:80px;
+ }
+ .photo #p3{
+    position: relative;
+    top: 0;
+    left:150px;
+ }
+ .photo #logo1{
+    position:relative;
+    height:50px;
+    width:150px;
+    top: 10px;
+    left: 80px;
+    }
+
+
+
+

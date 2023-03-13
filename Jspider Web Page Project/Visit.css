@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+body{
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+.logo{      
+    position: relative;
+    height:10px;
+    top: 5px;
+    left:100px;
+    
+}
+ul {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    line-height:36px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: 20px;
+    position: sticky;
+    top: 10px;
+    left: 400px;
+  
+    color: white;
+    display: flex;
+  }
+  a{color: white;
+    position: relative;
+    top: 0;
+    left:400px;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+    width:50px;
+}
+#s{position: relative;
+    top: 0;
+}
+a:hover{color: chocolate;}
+.active{color: chocolate;}
+
+.menu1 #map{
+    position: relative;
+    top:40px;
+    left: 120px;
+}
+.menu1 #loc{
+    color: chocolate;
+    position: relative;
+    top:30px;
+    left:20px;
+}
+.menu1 #fol{
+    color: chocolate;
+    position: relative;
+    top:-310px;
+    left:420px;
+}
+.menu1 #i1{
+    position: relative;
+    top:-750px;
+    left:500px;
+}
+.menu1 #i2{
+    position: relative;
+    top:-750px;
+    left:510px;
+}
+.menu1 #i3{
+    position: relative;
+    top:-750px;
+    left:520px;
+}
+.menu1 #i4{
+    position: relative;
+    top:-750px;
+    left:530px;
+}
+.menu1 #i5{
+    position: relative;
+    top:-350px;
+    left:600px;
+}
+.menu1 #i6{
+    position: relative;
+    top: -659px;
+    left:-440px;
+
+}
